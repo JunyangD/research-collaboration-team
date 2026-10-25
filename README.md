@@ -76,7 +76,7 @@
 |------|------|------|
 | `team-onboarding` | 首次建档、改团队配置、成员增删改、工作区体检 | 原创 |
 | `pubmed-verifier` | 引用验真：判断 PMID 是否真的指向这篇论文，检出编造引用 | MIT-0 |
-| `academic-figures` | 论文配图：22 种图表（KM 曲线、ROC、森林图、热图、韦恩图等），期刊色板与投稿预设 | MIT-0 |
+| `academic-figures` | 论文配图：22 种图表（KM 曲线、ROC、森林图、热图、韦恩图等），期刊色板与投稿预设 | MIT（署名 docsor1212） |
 | `anti-defensive-writing` | 论文去防御腔：把「自我削弱的写法」改成有主张的写法 | MIT |
 | `docx-anti-defensive-writing` | 上一条的 Word 落地版：定点改写、保留格式、出修改清单 | 原创 |
 | `agent-team-delivery-discipline` | 协作交付纪律：防止假成功、口径漂移、记录失真 | 原创 |
