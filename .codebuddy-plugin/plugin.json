@@ -25,7 +25,6 @@
     "./skills/docx-anti-defensive-writing",
     "./skills/agent-team-delivery-discipline"
   ],
-
   "expertType": "team",
   "agentName": "research-collaboration-team-lead",
   "teamInfo": {
@@ -41,7 +40,6 @@
       "environment-engineer"
     ]
   },
-
   "displayName": {
     "en": "Research Collaboration Team",
     "zh": "科研协作团队"
@@ -62,76 +60,148 @@
   },
   "plugin": "research-collaboration-team",
   "tags": [
-    { "en": "Research Collaboration", "zh": "科研协作" },
-    { "en": "Literature & Data", "zh": "文献与数据" },
-    { "en": "Grant & Project", "zh": "项目申报" }
+    {
+      "en": "Research Collaboration",
+      "zh": "科研协作"
+    },
+    {
+      "en": "Literature & Data",
+      "zh": "文献与数据"
+    },
+    {
+      "en": "Grant & Project",
+      "zh": "项目申报"
+    }
   ],
   "quickPrompts": [
-    { "en": "This is my first time — guide me through setting up the team.", "zh": "我是第一次使用，请先引导我完成团队初始化。" },
-    { "en": "Search the recent literature on my topic and organize it into a table.", "zh": "帮我检索本领域近五年的文献并整理成表。" },
-    { "en": "Analyze this dataset and produce publication-ready figures.", "zh": "这份数据帮我做统计分析并出图。" }
+    {
+      "en": "This is my first time — guide me through setting up the team.",
+      "zh": "我是第一次使用，请先引导我完成团队初始化。"
+    },
+    {
+      "en": "Search the recent literature on my topic and organize it into a table.",
+      "zh": "帮我检索本领域近五年的文献并整理成表。"
+    },
+    {
+      "en": "Analyze this dataset and produce publication-ready figures.",
+      "zh": "这份数据帮我做统计分析并出图。"
+    }
   ],
   "members": [
     {
       "id": "research-collaboration-team-lead",
-      "displayName": { "en": "Coordinator", "zh": "总管" },
-      "profession": { "en": "Research Orchestrator", "zh": "科研调度总监" },
+      "displayName": {
+        "en": "Coordinator",
+        "zh": "总管"
+      },
+      "profession": {
+        "en": "Research Orchestrator",
+        "zh": "科研调度总监"
+      },
       "avatar": "avatars/research-collaboration-team-lead.png",
       "role": "lead"
     },
     {
       "id": "librarian",
-      "displayName": { "en": "Librarian", "zh": "文献官" },
-      "profession": { "en": "Knowledge Base Librarian", "zh": "知识库馆长" },
+      "displayName": {
+        "en": "Librarian",
+        "zh": "文献官"
+      },
+      "profession": {
+        "en": "Knowledge Base Librarian",
+        "zh": "知识库馆长"
+      },
       "avatar": "avatars/librarian.png",
       "role": "member"
     },
     {
       "id": "domain-expert",
-      "displayName": { "en": "Domain Expert", "zh": "领域专家" },
-      "profession": { "en": "Subject Domain Expert", "zh": "学科领域专家" },
+      "displayName": {
+        "en": "Domain Expert",
+        "zh": "领域专家"
+      },
+      "profession": {
+        "en": "Subject Domain Expert",
+        "zh": "学科领域专家"
+      },
       "avatar": "avatars/domain-expert.png",
       "role": "member"
     },
     {
       "id": "data-analyst",
-      "displayName": { "en": "Data Analyst", "zh": "数据分析师" },
-      "profession": { "en": "Data Analysis Engineer", "zh": "数据分析工程师" },
+      "displayName": {
+        "en": "Data Analyst",
+        "zh": "数据分析师"
+      },
+      "profession": {
+        "en": "Data Analysis Engineer",
+        "zh": "数据分析工程师"
+      },
       "avatar": "avatars/data-analyst.png",
       "role": "member"
     },
     {
       "id": "project-advisor",
-      "displayName": { "en": "Project Advisor", "zh": "项目顾问" },
-      "profession": { "en": "Research Project Planner", "zh": "科研项目规划师" },
+      "displayName": {
+        "en": "Project Advisor",
+        "zh": "项目顾问"
+      },
+      "profession": {
+        "en": "Research Project Planner",
+        "zh": "科研项目规划师"
+      },
       "avatar": "avatars/project-advisor.png",
       "role": "member"
     },
     {
       "id": "business-strategist",
-      "displayName": { "en": "Business Strategist", "zh": "商业策划" },
-      "profession": { "en": "Business Strategist", "zh": "商业策划师" },
+      "displayName": {
+        "en": "Business Strategist",
+        "zh": "商业策划"
+      },
+      "profession": {
+        "en": "Business Strategist",
+        "zh": "商业策划师"
+      },
       "avatar": "avatars/business-strategist.png",
       "role": "member"
     },
     {
       "id": "medical-educator",
-      "displayName": { "en": "Medical Educator", "zh": "教学讲师" },
-      "profession": { "en": "Medical Educator", "zh": "医学讲师" },
+      "displayName": {
+        "en": "Teaching Specialist",
+        "zh": "教学讲师"
+      },
+      "profession": {
+        "en": "Teaching & Training Specialist",
+        "zh": "教学与培训"
+      },
       "avatar": "avatars/medical-educator.png",
       "role": "member"
     },
     {
       "id": "science-illustrator",
-      "displayName": { "en": "Illustrator", "zh": "绘图师" },
-      "profession": { "en": "Scientific Illustrator", "zh": "科研绘图师" },
+      "displayName": {
+        "en": "Illustrator",
+        "zh": "绘图师"
+      },
+      "profession": {
+        "en": "Scientific Illustrator",
+        "zh": "科研绘图师"
+      },
       "avatar": "avatars/science-illustrator.png",
       "role": "member"
     },
     {
       "id": "environment-engineer",
-      "displayName": { "en": "Environment Engineer", "zh": "环境工程师" },
-      "profession": { "en": "Environment Operations Engineer", "zh": "环境运维工程师" },
+      "displayName": {
+        "en": "Environment Engineer",
+        "zh": "环境工程师"
+      },
+      "profession": {
+        "en": "Environment Operations Engineer",
+        "zh": "环境运维工程师"
+      },
       "avatar": "avatars/environment-engineer.png",
       "role": "member"
     }
