@@ -144,7 +144,7 @@
 | `docx-anti-defensive-writing` | 原创 | 随购买授权 | 允许 |
 | `agent-team-delivery-discipline` | 原创 | 随购买授权 | 允许 |
 | `pubmed-verifier` | 第三方 | MIT-0 | 允许，无需署名 |
-| `academic-figures` | 第三方 | MIT-0（上游仓库声明） | 允许，建议保留来源说明 |
+| `academic-figures` | 第三方（docsor1212） | MIT（上游 README 声明） | 允许，需保留 LICENSE 与署名 |
 | `anti-defensive-writing` | 第三方（Adkid-Zephyr / Kiterlin） | MIT | 允许，需保留 LICENSE |
 
 各第三方组件目录内保留了原始的 `LICENSE` / `SOURCE.md` 文件，请勿删除。
